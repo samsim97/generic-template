@@ -1,0 +1,27 @@
+# Changes here will be overwritten by Copier
+_commit: v2.2.0
+_src_path: gh:lincc-frameworks/python-project-template
+author_email: samuel.simard97@hotmail.com
+author_name: RL-Aerospace
+create_example_module: true
+custom_install: custom
+enforce_style:
+- ruff_lint
+- ruff_format
+failure_notification:
+- email
+include_benchmarks: false
+include_docs: true
+include_notebooks: false
+mypy_type_checking: strict
+package_name: template_generic
+project_description: Generic template for python projects
+project_license: none
+project_name: template-generic
+project_organization: RL-Aerospace
+python_versions:
+- '3.10'
+- '3.11'
+- '3.12'
+- '3.13'
+test_lowest_version: none
